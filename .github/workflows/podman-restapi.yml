@@ -69,4 +69,4 @@ jobs:
           'http://localhost:5080/Metrics' \
           -H 'accept: application/json'
     - name: Exibição dos logs do container
-      run: podman logs worker-tests
+      run: podman logs api-tests
