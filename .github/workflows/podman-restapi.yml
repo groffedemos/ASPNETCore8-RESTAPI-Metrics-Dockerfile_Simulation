@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 env:
-  SOURCE_DIRECTORY: './src/WorkerTests'
+  SOURCE_DIRECTORY: './src/APIMetrics'
   IMAGE_DOCKERHUB: 'apimetrics-dotnet8-podman'
 
 jobs:
